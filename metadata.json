@@ -1,0 +1,8 @@
+{
+  "name": "Remix Birthday Landing Page",
+  "description": "A responsive pastel birthday landing page celebrating Manahil with love from Hamza. Features interactive nicknames, handwritten love letter, virtual birthday cake, and custom birthday music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

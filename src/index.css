@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Custom font shortcuts */
+.font-handwriting {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+.font-rounded {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Custom lined paper background */
+.lined-paper {
+  background-color: #FFFDF9;
+  background-image: linear-gradient(#E8DFD8 1px, transparent 1px);
+  background-size: 100% 2.25rem;
+  line-height: 2.25rem;
+}
+
+/* Washi tape effect */
+.washi-tape-pink {
+  background: rgba(254, 205, 211, 0.75);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.washi-tape-mint {
+  background: rgba(187, 247, 208, 0.75);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.washi-tape-lavender {
+  background: rgba(233, 213, 255, 0.75);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
